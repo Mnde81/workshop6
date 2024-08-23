@@ -1,6 +1,6 @@
 
-import SectionTwoCard from './components/SectionTwoCard'
-import SectionTwoTrend from './components/SectionTwoTrend';
+import SectionTwoCard from './components/sectionTwo/SectionTwoCard'
+import SectionTwoTrend from './components/sectionTwo/SectionTwoTrend';
 
 function App() {
   
