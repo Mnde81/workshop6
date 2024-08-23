@@ -1,0 +1,16 @@
+.trendingBoxContainer {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;  
+  }
+  
+  .trendingBox {
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .trendingBox > span {
+    margin-left: 15px;
+  }
