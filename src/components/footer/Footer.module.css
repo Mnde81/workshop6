@@ -1,0 +1,169 @@
+.footer {
+    width: 100%; /* Ensures the footer takes up the full width */
+    padding: 20px;
+    background-color: #141414;
+    color: #757575;
+    font-size: 15px;
+    position: relative;
+    bottom: 0;
+  }
+  
+  .footerTop {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .emailForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 0;
+  }
+  
+  .emailInput {
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    margin-right: 10px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+  }
+  
+  .getStartedButton {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 60px;
+    white-space: nowrap;
+  }
+  
+  .footerContact {
+    margin-top: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .footerLinks {
+    display: grid;
+    padding-left: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .footerList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footerList a {
+    color: #757575;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .footerList a:hover {
+    text-decoration: underline;
+  }
+  
+  .footerBottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .languageButton {
+    background: none;
+    border: 1px solid #757575;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .dropdownItem {
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdownItem:hover {
+    background-color: #2e8bc0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .footerLinks {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .languageButton {
+      margin: 0 auto;
+      display: block;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .footerLinks {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .emailForm {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .emailInput {
+      width: 100%;
+      max-width: none;
+    }
+  
+    .getStartedButton {
+      width: auto;
+      margin-top: 10px;
+      padding: 10px 20px;
+    }
+  
+    .footerBottom {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .footerLinks {
+      grid-template-columns: 1fr;
+    }
+  
+    .emailForm {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .emailInput {
+      margin-bottom: 10px;
+    }
+  
+    .getStartedButton {
+      width: auto;
+      margin-top: 10px;
+      padding: 10px 20px;
+    }
+  
+    .languageButton {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .country {
+      margin: 0;
+    }
+  }
