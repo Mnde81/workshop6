@@ -1,3 +1,12 @@
+.sectionTwoCards {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
 .cardImage {
     width: 230px;
   }
